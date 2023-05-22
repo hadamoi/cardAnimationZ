@@ -31,6 +31,9 @@ section {
 
   .cardItem img {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 180px;
     height: auto;
     border-radius: 10px;
@@ -40,7 +43,7 @@ section {
 
 .buttonWrap {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
 
