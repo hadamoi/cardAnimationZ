@@ -32,6 +32,7 @@ const CARD_EFFECTS = () => {
   }
   // active button
   buttonAll[pageNum].classList.add('active');
+  gsap.killTweensOf(cards) 
 
   if (pageNum == 0) {
     // center cards
