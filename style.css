@@ -58,6 +58,6 @@ section .cardItem img {
   text-transform: uppercase;
   font-size: 20px;
 }
-.buttonWrap button:hover {
-  color: #e22781;
+.buttonWrap button:hover, .buttonWrap button.active {
+  background: #FEDE22;
 }/*# sourceMappingURL=style.css.map */
