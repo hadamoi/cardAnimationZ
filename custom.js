@@ -37,7 +37,6 @@ const CARD_EFFECTS = () => {
   if (pageNum == 0) {
     // center cards
     cards.forEach(function (item, i) {
-      console.log(i);
       gsap.to(item, 0.8, {
         top: windowHeight / 2 + (i * 10),
         left: windowWidth / 2 - (i * 90 - 180),
