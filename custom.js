@@ -1,5 +1,4 @@
 let windowHeight, windowWidth
-
 let cards = document.querySelectorAll('.cardItem img');
 let buttonAll = document.querySelectorAll('button');
 let pageNum = 0;
@@ -21,11 +20,9 @@ for (let i = 0; i < buttonAll.length; i++) {
     }
   })(i);
 }
-
 gsap.set('section', { perspective: 800 })
 
 const CARD_EFFECTS = () => {
-
   for (let i = 0; i < buttonAll.length; i++) {
     // all button remove active class
     buttonAll[i].classList.remove('active');
